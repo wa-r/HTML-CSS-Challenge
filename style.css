@@ -64,3 +64,96 @@ header a {
   padding-top: 10px;
   font-size: 20px;
 }
+
+#portfolio {
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#portfolio .container {
+  width: 920px;
+}
+
+.heading {
+  text-align: center;
+  font-size: 32px;
+  padding-top: 90px;
+  margin-bottom: 8px;
+}
+
+.heading::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0;
+  background-color: #EC715F;
+}
+
+.heading-text {
+  text-align: center;
+  font-size: 16px;
+  margin: 30px 0;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 90px;
+}
+
+.box1 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/sketch.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box2 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/websuku.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box3 {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-image: url(img/write.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box4 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/webcamp.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.box5 {
+  width: 300px;
+  height: 250px;
+  margin: 0 10px 10px 0;
+  background-image: url(img/talk.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.box6 {
+  width: 300px;
+  height: 250px;
+  margin-bottom: 10px;
+  background-image: url(img/webcamp-mother.png);
+  background-size: cover;
+  background-position: center;
+}
