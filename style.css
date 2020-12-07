@@ -237,3 +237,53 @@ header a {
 .right-content-text:last-child {
   margin-bottom: 0;
 }
+
+#contact {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#contact .container {
+  width: 800px;
+  margin-bottom: 90px;
+}
+
+.contact-content {
+  display: flex;
+}
+
+.left-contact-content {
+  width: 400px;
+  text-align: center;
+}
+
+.right-contact-content {
+  width: 400px;
+  text-align: center;
+}
+
+.discription-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 20px 0 5px 0;
+}
+
+.discription-title p:first-of-type {
+  margin-top: 0;
+}
+
+.discription-text{
+  margin-bottom: 20px;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.right-contact-content i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.right-contact-content i:last-child {
+  margin-right: 0;
+}
