@@ -192,3 +192,48 @@ header a {
   margin: 10px 0;
   font-size: 20px;
 }
+
+#profile {
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#profile .container {
+  width: 1024px;
+  margin-bottom: 90px;
+}
+
+.profile-content {
+  display: flex;
+}
+
+.left-content {
+  width: 512px;
+  text-align: center;
+}
+
+.left-content img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.right-content {
+  width: 520px;
+}
+
+.right-content-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.right-content-text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.right-content-text:last-child {
+  margin-bottom: 0;
+}
