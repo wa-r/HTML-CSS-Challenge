@@ -157,3 +157,38 @@ header a {
   background-size: cover;
   background-position: center;
 }
+
+#feature {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#feature .container {
+  width: 980px;
+  margin-bottom: 90px;
+}
+
+.strength {
+  float: left;
+  width: 320px;
+  margin-right: 10px;
+  /* margin-right: 10px; */
+}
+
+.strength:last-child {
+  margin-right: 0;
+}
+
+.strength-top{
+  text-align: center;
+}
+
+.strength-top i {
+  font-size: 60px;
+}
+
+.strength-top h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
